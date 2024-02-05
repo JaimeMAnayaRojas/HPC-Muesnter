@@ -35,6 +35,8 @@ This guide will walk you through the process of installing Julia, setting up Vis
 
 2. **Search for Julia**: Type "Julia" into the search bar, find the Julia extension by 'julialang', and click on the "Install" button.
 
-3. **Verify Extension Installation**: After installation, you can open a `.jl` file to see if the syntax highlighting and other features provided by the Julia extension are working.
+3.**Search for Copilot**: Type "GitHub Copilot" into the search bar, find the Copilot extension, and click on the "Install" button.
+
+4. **Verify Extension Installation**: After installation, you can open a `.jl` file to see if the syntax highlighting and other features provided by the Julia extension are working.
 
 By following these steps, you will have Julia and GitHub Copilot set up in VSCode, allowing you to leverage the powerful combination of Julia's computational capabilities and GitHub Copilot's AI-driven code assistance for your projects.
