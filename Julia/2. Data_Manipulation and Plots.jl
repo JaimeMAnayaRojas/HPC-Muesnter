@@ -63,7 +63,7 @@ scatter(df1.Root, df1.Fruit, label = "Grazed")
 scatter!(df2.Root, df2.Fruit, label = "Ungrazed")
 xlabel!("Root")
 ylabel!("Fruits")
-
 savefig("My_firstPlot.png")
-scatter(data.Root, data.Fruit, group = data.Grazing)
+
+
 
