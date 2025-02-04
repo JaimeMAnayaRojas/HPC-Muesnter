@@ -3,7 +3,7 @@ This guide will walk you through the process of installing Julia, setting up Vis
 
 ### Step 1: Install Julia
 
-1. **Download Julia**: Go to the [**Julia Language official website**:https://julialang.org/](https://julialang.org/) and download the latest version of Julia, which, as of today, is version 1.10.0. Choose the installer that matches your operating system (Windows, macOS, or Linux).
+1. **Download Julia**: Go to the [**Julia Language official website**:https://julialang.org/](https://julialang.org/) and download the latest version of Julia, which, as of today, is version 1.11.3. Choose the installer that matches your operating system (Windows, macOS, or Linux).
    
 2. **Install Julia**: Run the downloaded installer and follow the on-screen instructions to install Julia on your computer.
 
