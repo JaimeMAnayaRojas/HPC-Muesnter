@@ -155,6 +155,3 @@ my_fun(10)
 
 @time my_fun(10e9)
 
-
-# Run the Pandoc command to convert the Markdown document to PDF
-run(`pandoc $input_file -o $output_file`)

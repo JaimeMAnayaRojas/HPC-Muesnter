@@ -66,4 +66,22 @@ ylabel!("Fruits")
 savefig("My_firstPlot.png")
 
 
+## 
+# working with Tidier 
+using TidierData
+using TidierFiles
+
+# read the data with Tidier
+tidy_data = read_csv("data/compensation.csv"; delim = ",")
+
+describe(tidy_data)
+
+# summary statistics
+
+sumData = @chain tidy_data begin
+    @group_by(Grazing)
+    @summarize(Root = mean(Root))
+end;
+
+sumData
 
