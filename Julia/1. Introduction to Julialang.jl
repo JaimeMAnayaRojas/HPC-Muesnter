@@ -82,7 +82,7 @@ d1["banana"]  # accessing the value associated with the key "banana" in d1
 
 using Pkg
 
-Pkg.add("LinearAlgebra")
+# Pkg.add("LinearAlgebra")
 
 using LinearAlgebra
 
@@ -109,8 +109,7 @@ A * C # possible because the dimensions of A and C are compatible for matrix mul
 
 ## Why to use Julia instead of R?
 
-using Pkg
-Pkg.add("RCall")
+# Pkg.add("RCall")
 
 using RCall
 # you can also run R code in Julia using the R"""
